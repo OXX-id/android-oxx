@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:oxx="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    oxx:layout_width="match_parent"
+    oxx:layout_height="match_parent"
+    oxx:orientation="vertical"
+    tools:context="id.co.oxx.belajar.MainActivity">
+    <!--xxx:paddingBottom="@dimen/activity_vertical_margin"-->
+    <!--xxx:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--xxx:paddingRight="@dimen/activity_horizontal_margin"-->
+    <!--xxx:paddingTop="@dimen/activity_vertical_margin"-->
+
+    <ScrollView
+        oxx:layout_width="match_parent"
+        oxx:layout_height="wrap_content">
+
+        <LinearLayout
+            oxx:layout_width="match_parent"
+            oxx:layout_height="wrap_content"
+            oxx:orientation="vertical"
+            oxx:gravity="center"
+            oxx:layout_marginTop="20dp"
+            oxx:layout_marginRight="@dimen/main_theme_margin_right"
+            oxx:layout_marginLeft="@dimen/main_theme_margin_right">
+
+            <TextView
+                oxx:layout_width="wrap_content"
+                oxx:layout_height="wrap_content"
+                oxx:layout_gravity="center_horizontal"
+                oxx:textAppearance="@android:style/TextAppearance.Large"
+                oxx:layout_marginTop="20dp"
+                oxx:text="@string/app_name"
+                oxx:textColor="@color/colorOxx"
+                oxx:textStyle="bold"
+                oxx:textSize="30dp" />
+
+            <ImageView
+                oxx:layout_width="wrap_content"
+                oxx:layout_height="wrap_content"
+                oxx:src="@drawable/ic_oxx"
+                oxx:layout_gravity="center" />
+
+            <TextView
+                oxx:layout_width="wrap_content"
+                oxx:layout_height="wrap_content"
+                oxx:layout_gravity="center_horizontal"
+                oxx:textAppearance="@android:style/TextAppearance.Small"
+                oxx:text="@string/description" />
+
+            <LinearLayout
+                oxx:layout_width="match_parent"
+                oxx:layout_height="wrap_content"
+                oxx:orientation="vertical"
+                oxx:gravity="center_horizontal"
+                oxx:padding="20dp">
+
+                <android.support.design.widget.TextInputLayout
+                    oxx:id="@+id/txtInputlayoutEmail"
+                    oxx:layout_width="match_parent"
+                    oxx:layout_height="wrap_content"
+                    oxx:textColorHint="@color/colorOxx"
+                    oxx:hint="Email">
+                    <EditText
+                        oxx:layout_width="match_parent"
+                        oxx:layout_height="75dp"
+                        oxx:inputType="textEmailAddress"
+                        oxx:id="@+id/username"
+                        oxx:layout_gravity="center_horizontal"
+                        oxx:layout_marginTop="50dp"
+                        oxx:textColorHint="#ccc"
+                        oxx:drawableLeft="@drawable/ic_email_black_36dp"
+                        oxx:drawablePadding="15dp"
+                        oxx:textColor="@color/colorOxxDark"/>
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    oxx:id="@+id/txtInputlayoutPassword"
+                    oxx:layout_width="match_parent"
+                    oxx:layout_height="75dp"
+                    oxx:textColorHint="@color/colorOxx"
+                    oxx:hint="Password">
+                    <EditText
+                        oxx:layout_width="match_parent"
+                        oxx:layout_height="wrap_content"
+                        oxx:inputType="textPassword"
+                        oxx:id="@+id/password"
+                        oxx:layout_gravity="center_horizontal"
+                        oxx:layout_marginTop="25dp"
+                        oxx:textColorHint="#ccc"
+                        oxx:drawableLeft="@drawable/ic_lock_black_36dp"
+                        oxx:drawablePadding="15dp"
+                        oxx:textColor="@color/colorOxxDark"/>
+                </android.support.design.widget.TextInputLayout>
+
+                <Button
+                    oxx:layout_width="wrap_content"
+                    oxx:layout_height="wrap_content"
+                    oxx:id="@+id/login"
+                    oxx:layout_gravity="center_horizontal"
+                    oxx:background="@color/colorOxx"
+                    oxx:textColor="#fff"
+                    oxx:layout_marginTop="20dp"
+                    oxx:text="Sign In" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                oxx:layout_width="match_parent"
+                oxx:layout_height="wrap_content"
+                oxx:orientation="horizontal"
+                oxx:gravity="center_horizontal">
+
+                <TextView
+                    oxx:layout_width="wrap_content"
+                    oxx:layout_height="wrap_content"
+                    oxx:text="Not registered? " />
+
+                <TextView
+                    oxx:layout_width="wrap_content"
+                    oxx:layout_height="wrap_content"
+                    oxx:text="Sign Up!"
+                    oxx:textColor="@color/colorOxx"
+                    oxx:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
