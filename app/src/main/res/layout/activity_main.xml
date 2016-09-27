@@ -21,8 +21,8 @@
             oxx:orientation="vertical"
             oxx:gravity="center"
             oxx:layout_marginTop="20dp"
-            oxx:layout_marginRight="@dimen/main_theme_margin_right"
-            oxx:layout_marginLeft="@dimen/main_theme_margin_right">
+            oxx:layout_marginRight="@dimen/_15dp"
+            oxx:layout_marginLeft="@dimen/_15dp">
 
             <TextView
                 oxx:layout_width="wrap_content"

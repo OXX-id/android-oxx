@@ -4,6 +4,5 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
 
     <!-- add -->
-    <dimen name="main_theme_margin_right">16dp</dimen>
-    <dimen name="main_theme_margin_left">16dp</dimen>
+    <dimen name="_15dp">15dp</dimen>
 </resources>
